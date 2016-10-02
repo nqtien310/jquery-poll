@@ -1,0 +1,24 @@
+{
+  "name": "jquery-poll",
+  "authors": [
+    "Tien Nguyen <nqtien310@gmail.com>"
+  ],
+  "description": "Easy polling with Jquery",
+  "main": "dist/jquery-poll.min.js",
+  "keywords": [
+    "jquery-poll",
+    "poll",
+    "polling",
+    "smartpoll",
+    "easypoll"
+  ],
+  "license": "MIT",
+  "homepage": "",
+  "ignore": [
+    "**/.*",
+    "node_modules",
+    "bower_components",
+    "test",
+    "tests"
+  ]
+}

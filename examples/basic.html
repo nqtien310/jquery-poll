@@ -1,0 +1,17 @@
+<script src="http://code.jquery.com/jquery-latest.min.js"></script>
+<script src="../src/jquery-poll.js"></script>
+
+<script>
+/* poll at : 1s, 2s, 3s, 4s, 5s, 6s*/
+$.poll({
+  url: "http://localhost:3000",
+  success: function(data,status,response,poll){
+    poll();
+  },
+  error: function(xhr,status,message,poll){
+    poll();
+  },
+  every: 5000
+})
+
+</script>
